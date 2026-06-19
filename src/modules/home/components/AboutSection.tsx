@@ -12,7 +12,7 @@ const stats = [
 export default function AboutSection() {
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-8xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Factory Image */}
           <div className="relative rounded-lg overflow-hidden">

@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
       {
         path: "contact",
         lazy: async () => {
-          const { default: Component } = await import("@/modules/contact/ContactPage");
+          const { default: Component } = await import("@/modules/contact/pages/ContactPage");
           return { Component };
         },
       },

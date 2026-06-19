@@ -12,7 +12,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="max-w-8xl mx-auto px-6 lg:px-8 py-20 md:py-28 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 pt-20 pb-32 md:pt-28 md:pb-44 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-white space-y-6">
@@ -27,11 +27,11 @@ export default function HeroSection() {
               Pole Line Hardware for a stronger tomorrow.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-accent hover:brightness-110 rounded-md text-white font-semibold px-8 py-3 text-base">
+              <Button className="bg-accent hover:bg-accent/90 hover:brightness-110  rounded-md text-white font-semibold px-8 py-5 text-base">
                 EXPLORE PRODUCTS
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <Button className="text-black bg-white rounded-md font-semibold px-8 py-3 text-base">
+              <Button className="text-black hover:bg-gray-200 bg-white rounded-md font-semibold px-8 py-5 text-base">
                 DOWNLOAD CATALOG
                 <Download className="w-5 h-5" />
               </Button>

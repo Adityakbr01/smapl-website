@@ -23,8 +23,8 @@ const products = [
 
 export default function Footer() {
   return (
-    <footer className="bg-navy-dark text-white">
-      <div className="max-w-8xl mx-auto px-6 lg:px-8 py-12">
+    <footer className="bg-[#08182F] text-white">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
@@ -110,7 +110,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-white/10">
-        <div className="max-w-8xl mx-auto px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
           <p>&copy; 2024 Sai Moulded Appliances Pvt. Ltd. All Rights Reserved.</p>
           <p>Designed by AGS Demo</p>
         </div>

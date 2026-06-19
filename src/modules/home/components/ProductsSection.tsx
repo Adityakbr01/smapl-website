@@ -12,8 +12,8 @@ const products = [
 
 export default function ProductsSection() {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-8xl mx-auto px-6 lg:px-8">
+    <section className="py-20 mt-6 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-2">

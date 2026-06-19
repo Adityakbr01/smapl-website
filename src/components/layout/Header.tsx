@@ -30,8 +30,8 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-8xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
+    <header className="bg-white sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="SMAPL Logo" className="h-12" />
         </Link>
@@ -78,7 +78,7 @@ export default function Header() {
                 className={`px-3 py-2 text-sm font-semibold rounded-md transition-colors ${
                   location.pathname === link.to
                     ? "text-accent"
-                    : "text-navy hover:text-accent"
+                    : "hover:text-accent"
                 }`}
               >
                 {link.label}
