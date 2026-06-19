@@ -30,6 +30,20 @@ export const router = createBrowserRouter([
         },
       },
       {
+        path: "products",
+        lazy: async () => {
+          const { default: Component } = await import("@/modules/products/pages/ProductsPage");
+          return { Component };
+        },
+      },
+      {
+        path: "quality",
+        lazy: async () => {
+          const { default: Component } = await import("@/modules/quality/pages/QualityPage");
+          return { Component };
+        },
+      },
+      {
         path: "contact",
         lazy: async () => {
           const { default: Component } = await import("@/modules/contact/pages/ContactPage");
